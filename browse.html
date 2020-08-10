@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Project Gallery w/ Filtering - HTML, CSS, Bootstrap, & Isotope</title>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/navbar.css">
+	<link rel="stylesheet" href="assets/css/browse.css">
+
+
+</head>
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid" style="background-color: #000000;">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-between">
+          <!-- <h1 class="logo"><a href="index.html">A & H Foodstuff</a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Left</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="//codeply.com">Codeply</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+          <div class="navbar-brand  img-fluid" style=" height: 100%;">
+          <img src="assets/img/logo.png" alt="" class="image-rotate-horizontal"width="80px" style="float: left;">
+            <p class="nav-text" style="color: white;margin-top: 20px;" style="float: right;"> Global Intergross </p>
+
+
+          </div>
+          <!-- <a href="index.html" ><img src="assets/img/logo.png" alt="" class="navbar-brand image-rotate-horizontal img-fluid animate__animated animate__heartBeat
+            "width="80px" style="display: inline;">
+            <p class="nav-text" style="margin-top: 10px;color: #2e3192;"> Global Intergross</p>
+          </a> -->
+            <a href="index.html" ></a>
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li class="active"><a href="browse.html">Products</a>
+                <!-- <ul>
+                  <li><a href="#">Candy</a></li>
+                  <li><a href="#">Drinks</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Nuts</a></li>
+                  <li><a href="#">Pickles</a></li>
+                  <li><a href="#">Spices</a></li>
+                  <li><a href="#">Sweets</a></li>
+                  <li><a href="#">Cleaning</a></li>
+                </ul> -->
+              </li>
+              <li><a href="#featured">Featured</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <!-- <li class="drop-down"><a href="">Drop Down</a>
+                <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li class="drop-down"><a href="#">Deep Drop Down</a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Drop Down 2</a></li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                </ul>
+              </li> -->
+              <li><a href="#contact">Contact</a></li>
+
+            </ul>
+          </nav><!-- .nav-menu -->
+
+          <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+      <!-- Test Section-->
+    <!-- Test Section-->
+    <section>
+    <div>
+      <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="gallery-title">Gallery</h1>
+
+      <div class="text-center" >
+			  <button class="btn btn-default filter-button" data-filter="all">All</button>
+			  <button class="btn btn-default filter-button" data-filter="candy">Candy</button>
+			  <button class="btn btn-default filter-button" data-filter="drink">Drinks</button>
+			  <button class="btn btn-default filter-button" data-filter="food">Food</button>
+        <button class="btn btn-default filter-button" data-filter="nut">Nuts</button>
+        <button class="btn btn-default filter-button" data-filter="pickles">Pickles</button>
+			  <button class="btn btn-default filter-button" data-filter="spices">Spices</button>
+        <button class="btn btn-default filter-button" data-filter="sweets">Sweets</button>
+        <button class="btn btn-default filter-button" data-filter="cleaning">Cleaning</button>
+      </div>
+      <br/>
+
+<div class="row">
+  <!-- Start of Listing of Products -->
+  <!-- Start Listing Of Drinks-->
+  <div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+    <div class="icon-box text-center">
+      <img src="images/drink/product1.png" class="img-responsive img-fluid product-image ">
+      <br>
+      <br>
+      <h2 class="product-text-title">7up</h2>
+      <p class="product-text-description">Item nb 00429</p>
+    </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="../drink/product2.png" class="img-responsive img-fluid product-image ">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="../drink/product3.png" class="img-responsive img-fluid product-image ">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="../drink/product4.png" class="img-responsive img-fluid product-image ">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="../drink/product5.png" class="img-responsive img-fluid product-image ">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="../drink/product6.png" class="img-responsive img-fluid product-image">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="images/drink/product7.png" class="img-responsive img-fluid product-image">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product7.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product8.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product9.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product10.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product11.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="images/drink/product12.png" class="img-responsive img-fluid product-image">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product13.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product14.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product15.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product16.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product17.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="images/drink/product18.png" class="img-responsive img-fluid product-image">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product19.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product20.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product21.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product22.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product23.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="images/drink/product24.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product25.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product26.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product27.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product28.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product29.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="images/drink/product30.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product31.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product32.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product33.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product34.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product35.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="images/drink/product36.png" class="img-responsive img-fluid product-image">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product37.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product38.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product39.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product40.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product41.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="images/drink/product42.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product43.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product44.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product45.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product46.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product47.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="images/drink/product48.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product49.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product50.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product51.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product52.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product53.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+    <img src="images/drink/product54.png" class="img-responsive img-fluid product-image">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product55.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product56.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product57.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product58.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="../drink/product59.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="images/drink/product60.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product61.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product62.png" class="img-responsive img-fluid product-image ">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product63.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product64.png" class="img-responsive img-fluid product-image ">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product65.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+  <img src="images/drink/product66.png" class="img-responsive img-fluid product-image ">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product67.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product68.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product69.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product70.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+<div class="icon-box text-center">
+<img src="../drink/product71.png" class="img-responsive img-fluid product-image">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+  <img src="../drink/product72.png" class="img-responsive img-fluid product-image">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+  </div>
+  </div>
+  <div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+  <div class="icon-box text-center">
+  <img src="../drink/product73.png" class="img-responsive img-fluid product-image ">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+  </div>
+  </div>
+  <div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter drink">
+    <div class="icon-box text-center">
+    <img src="../drink/product74.png" class="img-responsive img-fluid product-image ">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+    </div>
+    </div>
+    <!-- End Listing Of Drinks-->
+      <!-- Start Listing Of candy-->
+  <div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+    <div class="icon-box text-center">
+      <img src="images/candies/product1.png" class="img-responsive img-fluid product-image candy">
+      <br>
+      <br>
+      <h2 class="product-text-title">7up</h2>
+      <p class="product-text-description">Item nb 00429</p>
+    </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="../candies/product2.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="../candies/product3.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="../candies/product4.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="../candies/product5.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="../candies/product6.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="images/candies/product7.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product7.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product8.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product9.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product10.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product11.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="images/candies/product12.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product13.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product14.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product15.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product16.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product17.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="images/candies/product18.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product19.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product20.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product21.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product22.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product23.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="images/candies/product24.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product25.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product26.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product27.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product28.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product29.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="images/candies/product30.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product31.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product32.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product33.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product34.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product35.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="images/candies/product36.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product37.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product38.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product39.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product40.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product41.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="images/candies/product42.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product43.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product44.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product45.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product46.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product47.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="images/candies/product48.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product49.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product50.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product51.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product52.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product53.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+    <img src="images/candies/product54.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+  </div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product55.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product56.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product57.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product58.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="../candies/product59.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="images/candies/product60.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product61.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product62.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product63.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product64.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product65.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+  <img src="images/candies/product66.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product67.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product68.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product69.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product70.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+<div class="icon-box text-center">
+<img src="../candies/product71.png" class="img-responsive img-fluid product-image candy">
+<br>
+<br>
+<h2 class="product-text-title">7up</h2>
+<p class="product-text-description">Item nb 00429</p>
+</div>
+</div>
+<div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+  <img src="../candies/product72.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+  </div>
+  </div>
+  <div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+  <div class="icon-box text-center">
+  <img src="../candies/product73.png" class="img-responsive img-fluid product-image candy">
+  <br>
+  <br>
+  <h2 class="product-text-title">7up</h2>
+  <p class="product-text-description">Item nb 00429</p>
+  </div>
+  </div>
+  <div class="product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter candy">
+    <div class="icon-box text-center">
+    <img src="../candies/product74.png" class="img-responsive img-fluid product-image candy">
+    <br>
+    <br>
+    <h2 class="product-text-title">7up</h2>
+    <p class="product-text-description">Item nb 00429</p>
+    </div>
+    </div>
+    <!-- End Listing Of Drinks-->
+
+
+<!-- End of Listings of Products-->
+</div>    
+  </div>
+  </div>
+</section>
+
+    <!-- End Services Section -->
+		
+      
+
+      <!-- 
+    <div class="product col-lg-3 col-md-3 col-sm-6 col-xs-6 filter candy text-center">
+      <img src="images/drink/product1.jpg" class=" img-fluid img-responsive product-image" style="max-width: 70%;">
+       <br>
+      <a href="" class="product-text"> This is an additional description</a>
+      <br>
+      <a href=""> item nb 0</a>
+    </div>
+    <div class="product col-lg-3 col-md-3 col-sm-6 col-xs-6 filter candy text-center">
+      <img src="images/drink/product1.jpg" class="img-fluid img-responsive product-image" style="max-width: 70%;">
+       <br>
+      <a href="" class="product-text"> This is an additional description</a>
+      <br>
+      <a href=""> item nb 0</a>
+    </div>
+    </div>    
+  </div> -->
+
+	  </div>
+
+	<script>
+		$(document).ready(function(){
+		
+		$(".filter-button").click(function(){
+			var value = $(this).attr('data-filter');
+			
+			if(value == "all")
+			{
+				//$('.filter').removeClass('hidden');
+				$('.filter').show('1000');
+			}
+			else
+			{
+		//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+		//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+				$(".filter").not('.'+value).hide('3000');
+				$('.filter').filter('.'+value).show('3000');
+				
+			}
+		});
+		
+		if ($(".filter-button").removeClass("active")) {
+		$(this).removeClass("active");
+		}
+		$(this).addClass("active");
+		
+		});
+			</script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="assets/vendor/isotope.min.js"></script>
+<script src="assets/js/browsescript.js"></script>  
+</body>
+</html>

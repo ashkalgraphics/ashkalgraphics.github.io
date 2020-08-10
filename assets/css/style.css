@@ -536,6 +536,8 @@ section {
 /* First Category Start - CANDY */
 .services .icon-box {
   padding: 60px 30px;
+  width: 300px;
+  height: 300px;
   transition: all ease-in-out 0.3s;
   background: #9a1f40;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -544,7 +546,6 @@ section {
 }
 
 .services .icon-box .icon {
-  width: 64px;
   height: 64px;
   background: #009961;
   border-radius: 50px;
@@ -594,6 +595,8 @@ section {
 /* Second Category Start - DRINKS */
 .services .icon-box1 {
   padding: 60px 30px;
+  width: 300px;
+  height: 300px;
   transition: all ease-in-out 0.3s;
   background: #303960;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -602,7 +605,6 @@ section {
 }
 
 .services .icon-box1 .icon {
-  width: 64px;
   height: 64px;
   background: #009961;
   border-radius: 50px;
@@ -649,6 +651,8 @@ section {
 /* Third Category Start - Food */
 .services .icon-box2 {
   padding: 60px 30px;
+  width: 300px;
+  height: 300px;
   transition: all ease-in-out 0.3s;
   background: #63b7af;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -657,7 +661,6 @@ section {
 }
 
 .services .icon-box2 .icon {
-  width: 64px;
   height: 64px;
   background: #009961;
   border-radius: 50px;
@@ -707,6 +710,8 @@ section {
 /* Fourth Category Start - Nuts */
 .services .icon-box3 {
   padding: 60px 30px;
+  width: 300px;
+  height: 300px;
   transition: all ease-in-out 0.3s;
   background: #5c2a9d;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -715,7 +720,6 @@ section {
 }
 
 .services .icon-box3 .icon {
-  width: 64px;
   height: 64px;
   background: #009961;
   border-radius: 50px;
@@ -766,6 +770,8 @@ section {
 .services .icon-box4 {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
+  width: 300px;
+  height: 300px;
 
   background: #7d5a5a;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -774,7 +780,6 @@ section {
 }
 
 .services .icon-box4 .icon {
-  width: 64px;
   height: 64px;
   background: #009961;
   border-radius: 50px;
@@ -823,6 +828,8 @@ section {
 /* Fifth Category End - Pickles */
 /* Sixth Category Start - Spices */
 .services .icon-box5 {
+  width: 300px;
+  height: 300px;
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
   background: #0779e4;
@@ -832,7 +839,6 @@ section {
 }
 
 .services .icon-box5 .icon {
-  width: 64px;
   height: 64px;
   background: #009961;
   border-radius: 50px;
@@ -882,6 +888,8 @@ section {
 /* Seventh Category Start - Sweets */
 .services .icon-box6 {
   padding: 60px 30px;
+  width: 300px;
+  height: 300px;
   transition: all ease-in-out 0.3s;
   background: #b807e4;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -890,7 +898,6 @@ section {
 }
 
 .services .icon-box6 .icon {
-  width: 64px;
   height: 64px;
   background: #009961;
   border-radius: 50px;
@@ -940,6 +947,8 @@ section {
 /* Eighth Category Start - Cleaning */
 .services .icon-box7 {
   padding: 60px 30px;
+  width: 300px;
+  height: 300px;
   transition: all ease-in-out 0.3s;
   background: #f0a500;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -948,7 +957,6 @@ section {
 }
 
 .services .icon-box7 .icon {
-  width: 64px;
   height: 64px;
   background: #009961;
   border-radius: 50px;

@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Products</title>
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
 
 	<link rel="stylesheet" href="assets/css/navbar.css">
 	<link rel="stylesheet" href="assets/css/browse.css">
@@ -42,7 +49,7 @@
             </ul>
         </div>
           <div class="navbar-brand  img-fluid" style=" height: 100%;">
-          <img src="assets/img/logo.png" alt=" class="image-rotate-horizontal" width="80px" style="float: left;margin-right: 10px;">
+          <img src="assets/img/logo.png"  class="image-rotate-horizontal" width="80px" style="float: left;margin-right: 10px;">
             <p class="nav-text" style="color: white;margin-top: 20px;" style="float: right;"> Global Intergross </p>
 
 
@@ -55,9 +62,10 @@
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li class="active"><a href="browse.html">Products</a>
+              <li><a href="index.html"><i class="fas fa-home fa-lg"></i> Home</a></li>
+              <li><a href="index.html#LatestNews"><i class="far fa-newspaper fa-lg"></i> Latest News</a></li>
+              <li><a href="index.html#about"><i class="far fa-address-card fa-lg"></i> About</a></li>
+              <li class="active"><a href="browse.html"><i class="fas fa-truck fa-lg"></i> Products</a>
                 <!-- <ul>
                   <li><a href="#">Candy</a></li>
                   <li><a href="#">Drinks</a></li>
@@ -69,8 +77,8 @@
                   <li><a href="#">Cleaning</a></li>
                 </ul> -->
               </li>
-              <li><a href="#featured">Featured</a></li>
-              <li><a href="#pricing">Pricing</a></li>
+
+              <!-- <li><a href="index.html#pricing">Pricing</a></li> -->
               <!-- <li class="drop-down"><a href=">Drop Down</a>
                 <ul>
                   <li><a href="#">Drop Down 1</a></li>
@@ -88,7 +96,13 @@
                   <li><a href="#">Drop Down 4</a></li>
                 </ul>
               </li> -->
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="index.html#contact"><i class="fas fa-phone-alt fa-lg"></i> Contact</a></li>
+              <li class="drop-down"><a href="#"><i class="fas fa-language fa-lg"></i> Language</a>
+                <ul>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">Sweden</a></li>
+                </ul>
+              </li>
 
             </ul>
           </nav><!-- .nav-menu -->

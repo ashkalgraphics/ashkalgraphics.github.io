@@ -52,14 +52,15 @@ require_once('./php/component.php');
         <div class="navbar-brand  img-fluid" style="">
             <img src="assets/img/logo.png" alt="" class="image-rotate-horizontal "width="80px" >
             </div>
-            <script> 
-        if($(window).width() < 480) { 
-         $('#title').css('font-size','20px');
-         console.log("Title Fix");
-    }
-            </script>
-            <span class="pt-4"><a href="index.html#hero"><p id="#title"class="nav-text" style="color: white;white-space:nowrap" >Global Intergross</p></a></span>
 
+            <span class="pt-4"><a href="index.html#hero"><p id="#title"class="maint nav-text" style="color: white;white-space:nowrap" >Global Intergross</p></a></span>
+            <script> 
+            function isMobile() { return ('ontouchstart' in document.documentElement); }
+              if(isMobile()) { 
+                $(".maint").addClass('nav-text-mobile');
+               console.log("Title Fix");
+          }
+                  </script>
       <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
         <div class="bg-light line1"></div>
         <div class="bg-light line2"></div>

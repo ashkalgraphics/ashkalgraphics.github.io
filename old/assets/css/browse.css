@@ -1,0 +1,169 @@
+html,body{
+    background: #009df8; /* fallback for old browsers */
+}
+
+ul.filters{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+
+ul.filters > li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.filters > li > a{
+    display: block;
+    color: #434e5e;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+ul.filters > li > a:hover{
+    background-color: #e6e9ed;
+}
+
+ul.filters > li.active > a{
+    color: #fff;
+    background-color: #28bea8;
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #008799;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #008799;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #008799;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #008799;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+/* Gallery End */
+/*New Gallery Fix */
+ .product{
+ }
+ .product .product-text-title
+ {
+     color: rgb(0, 0, 0);
+     font-weight: bold;
+    
+}
+.product .product-text-description
+{
+   color: rgb(0, 0, 0);
+   
+}
+ .product .product-text{
+     color: rgb(0, 0, 0);
+ }
+ .product .product-image{
+    width: 300px;
+}
+.fluidcontainer{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+/* First Category Start - CANDY */
+ .icon-box {
+    padding: 60px 30px;
+    transition: all ease-in-out 0.3s;
+    background: #ffffff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+    border-radius: 18px 30px 0px 0px;
+    border-bottom: 5px solid #fff;
+    margin: 30px
+  }
+  
+   .icon-box .icon {
+    width: 64px;
+    height: 64px;
+    background: #009961;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+  }
+  
+   .icon-box .icon i {
+    font-size: 28px;
+  }
+  
+   .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+   .icon-box h4 a {
+    color: white;
+    transition: ease-in-out 0.3s;
+  }
+  
+   .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0;
+  }
+  
+   .icon-box:hover {
+    transform: translateY(-10px);
+    border-color: #2412bd;
+  }
+   .icon-box:hover {
+    transform: translateY(-10px);
+    border-color: #2412bd;
+  }
+  
+  .icon-box:hover h4 a {
+    color: white;
+  }
+  /* First Category End - CANDY */

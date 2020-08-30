@@ -13,7 +13,10 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+.newfont{
+  font-family: 'Bebas Neue', cursive;
 
+}
 a {
   color: #009961;
 }
@@ -172,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Navigation */
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
   position: fixed;
   right: 15px;
   top: 18px;
@@ -225,20 +228,20 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #009961;
   text-decoration: none;
-}
+} */
 
-.mobile-nav .drop-down > a:after {
+/* .mobile-nav .drop-down > a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
   position: absolute;
   right: 15px;
-}
+} */
 
-.mobile-nav .active.drop-down > a:after {
+/* .mobile-nav .active.drop-down > a:after {
   content: "\eaa1";
-}
-
+} */
+/* 
 .mobile-nav .drop-down > a {
   padding-right: 35px;
 }
@@ -250,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav .drop-down li {
   padding-left: 20px;
-}
+} */
 
 .mobile-nav-overly {
   width: 100%;
@@ -292,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero:before {
   content: "";
   background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,0.7413340336134453) 0%, rgba(0,0,0,0.12228641456582634) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.6012780112044818) 0%, rgba(0,0,0,0.12228641456582634) 51%, rgba(0,0,0,0.5396533613445378) 100%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1988,3 +1991,16 @@ section {
   width: 100px;
   display: inline-block; 
 }
+/* New Slider*/
+.swiper-container{
+  height: 350px;
+  
+}
+.swiper-slide{
+  background:rgb(255, 255, 255);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+/* New Slider end*/

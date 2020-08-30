@@ -1,0 +1,87 @@
+{
+    "navbar" : {
+        "home" : "Home",
+        "news" : "Latest News",
+        "about" : "About",
+        "products" : "Products",
+        "contact" : "Contact Us",
+        "sign-in" : "Log In",
+        "register" : "Register",
+        "shopping-cart-empty" : "Shopping Cart is Empty"
+    },"header" :{
+        "title" : "Food for you",
+        "subtitle" : "Wherever you are",
+        "dwnload-btn" : "Download Catalogue"
+
+    },
+    "swiper" : {
+        "title": "Featured Products"
+    },
+    "news" : {
+        "title" : "Latest News",
+        "description" : "Check Out Our newest releases."
+    },
+    "about":{
+        "title" : "About Us",
+        "desc" : "Practically born into the natural products industry, A. Barjawi actively seeks and responds to feedback on his thoughts about creating a new business paradigm, addressing issues facing the foods and beverages industry, exploring the international products to assist his environment to have the best quality foods and much more.",
+        "subd" : "We are Global Intergross Owned business that has been Import and Export for along generation. ",
+        "point1" : " Guaranteed Professionalism.",
+        "point2" : " Quality Of Products",
+        "point3" : " Taste Like Never Before"
+    },
+    "orderbyemail" : {
+        "title" : "Order By Email",
+        "description" : "Customer service advisors are also fully briefed on all Interfood products and services - with contact management software systems ensuring all information is immediately at hand.",
+        "button-text" : "Order Now!"
+    },
+    "services" : {
+        "maintitle" : " Services",
+        "description" : "For purchases over SEK 3,000, we offer free shipping within Malmö, we also have agreements with transport companies that deliver to the whole of Sweden and Denmark. You always get competitive prices from us.",
+        "title1" : "Customer Support",
+        "description1" : "The Fastest Ouf its kind",  
+        "title2" : "Quality Of Service",
+        "description2" : "Like never before.",  
+        "title3" : "Post-Purchase Support",
+        "description3" : "To ensure our customers are satisfied",  
+        "title4" : "Technical Inquires",
+        "description4" : "Because transperncy is our motive"
+    },
+    "stat" : {
+        "title" : "Our numbers will owe you",
+        "description" : "The experience we have yielded throughout the years have always been the basis of this sole foundation.",  
+        "point1" : "Clients",
+        "stat1" : "666",  
+        "point2" : "Projects",
+        "stat2" : "666",  
+        "point3" : "Hours Of Support",
+        "stat3" : "1,463",  
+        "point4" : "Hard Workers",
+        "stat4" : "15"
+    },
+    "faq" : {
+        "title" : "Frequently Asked Questions",
+        "description" : "",  
+        "point1" : "Where Are You Located?",
+        "faq1" : "Sweden.",  
+        "point2" : "Can We Order Online?",
+        "faq2" : "Please Contact our customer support team for orders",  
+        "point3" : "How can we check if an item is available?",
+        "faq3" : "Please Contact Us through email."
+    },
+    "contact" : {
+        "title" : "Contact Us",
+        "address" : "Visiting Address",  
+        "po" : "P.O. Box",
+        "address2" : "Warehouse Address",  
+        "email" : "Email",
+        "phone1" : "Head Office",  
+        "phone2" : "Fax",
+        "phone3" : "Mobile"
+    },"footer" : {
+        "title" : "Global Intergross",
+        "subtitle" : "Once Again, we assure you, your visit will be worth your while.        ",
+        "copyright" : "© Copyright Global Intergross. All Rights Reserved | Proudly Designed by Ashkal Graphics"
+
+    },
+    "test" : "Eng"
+}

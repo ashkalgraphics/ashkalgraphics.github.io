@@ -1,0 +1,87 @@
+{
+    "navbar" : {
+        "home" : "HEM",
+        "news" : "NYHETER",
+        "about" : "OM OSS",
+        "products" : "PRODUKTER",
+        "contact" : "KONTAKT",
+        "sign-in" : "LOGGA IN",
+        "register" : "REGISTRERA",
+        "shopping-cart-empty" : "Shopping Cart is Empty"
+    },"header" :{
+        "title" : "Food for you",
+        "subtitle" : "Wherever you are",
+        "dwnload-btn" : "Download Catalogue"
+
+    },
+    "swiper" : {
+        "title": "Utvalda produkter"
+    },
+    "news" : {
+        "title" : "NYHETER",
+        "description" : "Vi erbjuder alltid nya produkter , producenter och senaste sortiment i marknaden. Beställningar kangöras via hemsidan, per telefon eller så kan du besöka vår grossist som finns på Bragegatan 10 iMalmö."
+    },
+    "about":{
+        "title" : "OM OSS",
+        "desc" : "Välkommen till Global Intergross! Global Intergross grundades år 2008 och är en väletablerad grossist / importör baserad i Malmö. Grossisten är specialiserad på livsmedel, konfektyr samt produkter från Mellanöstern. Global Inter- gross levererar sina kvalitetsprodukter till bland annat detaljhandlare, butiker och grossister. Global Intergross erbjuder ett tydligt utbud till sina kunder som bidrar till att de genererar extra omsättning och marginal. Global Intergross står för kvalitetsprodukter med god service och utmärkta tjänster. Tillsam- mans gör vi bra affärer",
+        "subd" : "Missing - SWE",
+        "point1" : " Missing - SWE",
+        "point2" : " Missing - SWE",
+        "point3" : " Missing - SWE"
+    },
+    "orderbyemail" : {
+        "title" : "Beställ via e-post",
+        "description" : "Du kan beställa genom att skicka ett mejl till oss så hjälper vårt supportteam dig.",
+        "button-text" : "Beställ nu"
+    },
+    "services" : {
+        "maintitle" : "Services",
+        "description" : "Vid köp över 3000:- erbjuder vi frifrakt inom Malmö, vi har även avtal med transportföretag som lever- erar till hela Sverige och Danmark. Du får alltid konkurrenskraftiga priser från oss.",
+        "title1" : "Kundsupport",
+        "description1" : "Den snabbaste Ouf i sitt slag",  
+        "title2" : "Service kvalitet",
+        "description2" : "Som aldrig förr.",  
+        "title3" : "Support efter köp",
+        "description3" : "För att säkerställa att våra kunder är nöjda",  
+        "title4" : "Tekniska förfrågningar",
+        "description4" : "Because transperncy is our motive"
+    },
+    "stat" : {
+        "title" : "Missing",
+        "description" : "Missing",  
+        "point1" : "Missing",
+        "stat1" : "Missing",  
+        "point2" : "Missing",
+        "stat2" : "Missing",  
+        "point3" : "Missing",
+        "stat3" : "Missing",  
+        "point4" : "Missing",
+        "stat4" : "Missing"
+    },
+    "faq" : {
+        "title" : "Vanliga frågor",
+        "description" : "Missing",  
+        "point1" : "Var finns ni?",
+        "faq1" : "Sverige",  
+        "point2" : "Kan vi beställa online?",
+        "faq2" : "Kontakta vårt kundtjänstteam för beställningar",  
+        "point3" : "Hur kan vi kontrollera om en artikel är tillgänglig?",
+        "faq3" : "Vänligen kontakta oss via e-post."
+    },
+    "contact" : {
+        "title" : "Kontakta oss",
+        "address" : "Besöksadress",  
+        "po" : "P.O. Låda",
+        "address2" : "Lageradress",  
+        "email" : "E-post",
+        "phone1" : "Huvudkontor",  
+        "phone2" : "Fax",
+        "phone3" : "Mobil"
+    },"footer" : {
+        "title" : "Global Intergross",
+        "subtitle" : "Än en gång kan vi försäkra er att ditt besök kommer att vara värt ditt tag.",
+        "copyright" : "© Copyright Global Intergross. All Rights Reserved | Proudly Designed by Ashkal Graphics "
+
+    },
+    "test" : "SWE"
+}
